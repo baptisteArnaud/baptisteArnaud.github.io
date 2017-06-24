@@ -1,0 +1,35 @@
+.container{
+	display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+header .container{
+	flex-direction: row;
+}
+
+.about-me{
+	background-color: white;
+	padding: 4rem 0;
+}
+
+.social-nets{
+	display: flex;
+	align-items: center;
+}
+
+.social-nets .fa{
+	font-size: 50px;
+}
+
+.social-nets .display-4{
+	font-size: 30px;
+}
+
+.my-projects{
+	width: 100%;
+	display: flex;
+}
+
+.my-projects .btn{
+}
